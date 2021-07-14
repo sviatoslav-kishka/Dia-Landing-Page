@@ -1,0 +1,23 @@
+.header {
+  min-height: 800px;
+  background-color: #008aff;
+  border-radius: 0 0 0 20%;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding: 0 100px;
+
+  @media (max-width: 600px) {
+    padding: 0 25px;
+  }
+
+  @media (max-width: 320px) {
+    padding: 0 10px;
+  }
+
+  &-container {
+    min-height: 800px;
+    max-width: 1450px;
+    margin: 0 auto;
+  }
+}
